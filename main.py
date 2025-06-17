@@ -10,4 +10,4 @@ async def download(date):
     await asyncio.sleep(2)
     return date
 
-start(range(1000), 10)
+result = start(range(1000), 10)
